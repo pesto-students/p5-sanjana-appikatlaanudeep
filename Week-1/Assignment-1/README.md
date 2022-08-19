@@ -85,13 +85,13 @@ There are many similarities between browser user interfaces. Among the typical c
 
 ### High level components of a browser
 
-**The user interface:** this is mainly composed of the bookmarking menu, back/forward buttons, address bar, etc. 
-**Browser Engine:** Between the user interface and the rendering engine, the browser engine marshals operations.
-**Render Engine:** The rendering engine is in charge of presenting the requested content. When HTML content is requested, for instance, the rendering engine parses HTML and CSS and displays the result on the screen.
-**Networking:** For network calls like HTTP requests, several platform-specific implementations are used behind a platform-independent interface.
-**UI Backend:** Basic widgets like combo boxes and windows are drawn using the UI backend. This backend presents a universal, cross-platform interface. It employs techniques for the operating system user interface underneath.
-**JavaScript interpreter:** Used to parse and execute JavaScript code.
-**Data storage** All kinds of data, such as cookies, may need to be stored locally by the browser. Additionally, storage systems like localStorage, IndexedDB, WebSQL, and FileSystem are supported by browsers.
+- **The user interface:** this is mainly composed of the bookmarking menu, back/forward buttons, address bar, etc. 
+- **Browser Engine:** Between the user interface and the rendering engine, the browser engine marshals operations.
+- **Render Engine:** The rendering engine is in charge of presenting the requested content. When HTML content is requested, for instance, the rendering engine parses HTML and CSS and displays the - -result on the screen.
+- **Networking:** For network calls like HTTP requests, several platform-specific implementations are used behind a platform-independent interface.
+- **UI Backend:** Basic widgets like combo boxes and windows are drawn using the UI backend. This backend presents a universal, cross-platform interface. It employs techniques for the operating system user interface underneath.
+- **JavaScript interpreter:** Used to parse and execute JavaScript code.
+- **Data storage** All kinds of data, such as cookies, may need to be stored locally by the browser. Additionally, storage systems like localStorage, IndexedDB, WebSQL, and FileSystem are supported by browsers.
 
 ### Rendering engine and its use
 

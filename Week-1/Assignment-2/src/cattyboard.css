@@ -1,0 +1,138 @@
+html{
+    height:100%
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 0;
+    font-family: Lato, sans-serif;
+    color: #222;
+    height: 100%;
+    font-size: 0.9rem;
+}
+
+main {
+    flex: auto;
+    display: flex;
+}
+/* side bar css start*/
+aside {
+    flex: 0 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+aside i.la {
+    font-size: 1.5em;
+}
+/* side bar css end*/
+
+/* section header content css start*/
+
+.content {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+
+.catty-music-board-header {
+    flex: 0 0 280px;
+    display: flex;
+    padding: 40px;
+    background-color: #54504d;
+}
+
+.music-info {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+    color: #ffffff;
+    padding-left: 30px;
+}
+
+
+.music-info  div:nth-child(1) {
+    margin-bottom: auto;
+}
+
+
+/* section header content css end*/
+
+/* songs list content css start*/
+
+li {
+    display: flex;
+    padding: 0 20px;
+    min-height: 50px;
+}
+
+li p {
+    flex: 0 0 25%;
+}
+
+
+li span.catty-cloud {
+    border: 1px solid black;
+    font-size: 0.6em;
+    color: blue;
+    padding: 3px;
+}
+
+li:nth-child(2n) {
+    background-color: #eceaeaf3;
+}
+
+.music-list {
+    flex: 1 0 auto;
+    list-style-type: none;
+    padding: 5px 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* songs list content css end*/
+
+/* footer css start*/
+
+footer {
+    flex: 0 0 90px;
+    color: #fff;
+    background-color: #167dc7;
+    display: flex;
+    padding: 10px;
+}
+
+.catty-music-board-footer{
+    display: flex;
+    margin-right: auto;
+}
+
+.catty-music-board-footer div {
+    padding-left: 30px;
+}
+
+.catty-music-board-footer img {
+    width: 100px;
+}
+
+.music-controls-footer{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.music-controls-footer i{
+    font-size: 1.5em;
+}
+
+/* footer css end*/
+
+
+
+
